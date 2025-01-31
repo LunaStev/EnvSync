@@ -1,0 +1,11 @@
+[package]
+name = "EnvSync"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+envie = "0.2.1"
+
+[lib]
+name = "envsync"
+path = "src/lib.rs"
