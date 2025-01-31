@@ -2,6 +2,11 @@
 name = "EnvSync"
 version = "0.1.0"
 edition = "2021"
+authors = ["LunaStev <lunastev@gurmstudis.com>"]
+description = "EnvSync is an extension of Rust's envie library, providing functionality to synchronize environment variables between memory and the system environment. This library helps easily synchronize environment variable values between the .env file and system environment variables."
+license = "MPL-2.0"
+repository = "https://github.com/LunaStev/EnvSync"
+publish = true
 
 [dependencies]
 envie = "0.2.1"
